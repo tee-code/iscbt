@@ -1,0 +1,20 @@
+.my-btn{
+  background-color: #003366 !important;
+  color: white !important;
+}
+.form-park{
+  max-width: 50%;
+  margin: auto;
+}
+.label-bg{
+  background: #ff0066 !important;
+  color: #f1f1f1 !important;
+  padding: 10px;
+  border-radius: 40px;
+  margin: 10px;
+  font-family: cursive !important;
+}
+.error{
+  background: #FE121E !important;
+  word-wrap: break-word;
+}

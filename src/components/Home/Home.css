@@ -1,0 +1,38 @@
+.Main{
+  clear: both;
+  min-height: 500px;
+  background: #5acdb6 !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+  text-align: center;
+  padding-top: 10px !important;
+}
+
+.rounded-box{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #697581;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.rounded-box span{
+  font-weight: bold;
+  color: #f44259 !important;
+}
+
+.exam-btn, .result-btn{
+  margin: 10px;
+  background-color: #f44259 !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.3);
+}

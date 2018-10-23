@@ -1,0 +1,7 @@
+.result-parker{
+    clear: both;
+    min-height: 500px;
+    text-align: center;
+    padding-top: 10px !important;
+    background-color: white !important;
+}

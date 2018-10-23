@@ -1,0 +1,110 @@
+.timer-park{
+  width: 40%;
+  margin: auto;
+}
+.main-park{
+  min-height: 600px;
+}
+.timer-park .rounded-circle{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 30px;
+  font-size: 20px;
+  font-family: cursive;
+  animation-name: spinning;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+.hour{
+  border-width: 10px;
+  border-style: ridge;
+  border-left-color: #002B36;
+  border-right-color:#FE121E;
+  border-top-color:#002B36;
+  border-bottom-color: #FE121E;
+}
+.minute{
+  border-width: 10px;
+  border-style: ridge;
+  border-left-color: #002B36;
+  border-right-color:#F25858;
+  border-top-color:#002B36;
+  border-bottom-color: #F25858;
+}
+.second{
+  border-width: 10px;
+  border-style: ridge;
+  border-left-color: #002B36;
+  border-right-color: red;
+  border-top-color:#002B36;
+  border-bottom-color: red;
+}
+.time-park{
+  width: 80px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+}
+.heading{
+  clear: both;
+  background: #002B36;
+  color:white;
+  padding: 10px;
+}
+.picked{
+  background: #003366 !important;
+  color: white !important;
+  font-style: oblique !important;
+  font-weight: bolder !important;
+}
+ul li:not(first-child){
+  cursor: pointer;
+}
+.btn-park{
+  min-height: 100px;
+}
+.time-text{
+  clear: both;
+  margin-left: 50px;
+  background: #002B36;
+  color: white;
+}
+.submit-btn{
+  width: 100px;
+  height: 50px;
+  background: #FE121E;
+  color: white;
+  font-family: cursive;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  margin-top: -20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px !important;
+  padding: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+.error{
+   background: red;
+   padding: 10px;
+   color: white;
+}
+@keyframes spinning {
+  0%{
+    -moz-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    }
+    100%{
+    -moz-transform: rotateZ(60deg);
+    -webkit-transform: rotateZ(60deg);
+    -o-transform: rotateZ(60deg);
+    -ms-transform: rotateZ(60deg);
+    }
+}
