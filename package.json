@@ -2,6 +2,7 @@
     "name": "cbt-app",
     "version": "0.1.0",
     "private": true,
+    "homepage":"https://tee-code.github.io/iscbt/",
     "dependencies": {
         "bootstrap-less": "^3.3.8",
         "cors": "^2.8.4",
@@ -19,7 +20,9 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy" : "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "devDependencies": {
         "react-to-print": "^2.0.0-alpha-4"
